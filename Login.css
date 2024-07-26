@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(Background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.loginBox{
+    justify-content: center;
+    background: #000;
+    color: #fff;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: auto;
+}
+.flex-item {
+    background-color: tomato;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
